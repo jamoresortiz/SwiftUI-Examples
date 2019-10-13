@@ -13,6 +13,7 @@
 		0C49C3A3235266CA00AFDA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C49C3A2235266CA00AFDA2A /* Assets.xcassets */; };
 		0C49C3A6235266CA00AFDA2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C49C3A5235266CA00AFDA2A /* Preview Assets.xcassets */; };
 		0C49C3A9235266CA00AFDA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C49C3A7235266CA00AFDA2A /* LaunchScreen.storyboard */; };
+		0C9583D22353573500EC5EB7 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9583D12353573400EC5EB7 /* Driver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0C49C3A5235266CA00AFDA2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C49C3A8235266CA00AFDA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C49C3AA235266CA00AFDA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9583D12353573400EC5EB7 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = "../../Recursos/Drivers Info/Driver.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0C49C39C235266C400AFDA2A /* AppDelegate.swift */,
 				0C49C39E235266C400AFDA2A /* SceneDelegate.swift */,
 				0C49C3A0235266C400AFDA2A /* ContentView.swift */,
+				0C9583D12353573400EC5EB7 /* Driver.swift */,
 				0C49C3A2235266CA00AFDA2A /* Assets.xcassets */,
 				0C49C3A7235266CA00AFDA2A /* LaunchScreen.storyboard */,
 				0C49C3AA235266CA00AFDA2A /* Info.plist */,
@@ -149,6 +152,7 @@
 				0C49C39D235266C400AFDA2A /* AppDelegate.swift in Sources */,
 				0C49C39F235266C400AFDA2A /* SceneDelegate.swift in Sources */,
 				0C49C3A1235266C400AFDA2A /* ContentView.swift in Sources */,
+				0C9583D22353573500EC5EB7 /* Driver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
