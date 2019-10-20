@@ -2,8 +2,8 @@
 //  Driver.swift
 //  Formula 1 Drivers
 //
-//  Created by Juan Gabriel Gomila Salas on 03/06/2019.
-//  Copyright © 2019 Frogames. All rights reserved.
+//  Created by Jorge Amores Ortiz on 13/10/2019.
+//  Copyright © 2019 Jorge Amores Ortiz. All rights reserved.
 //
 
 import Foundation
@@ -47,8 +47,8 @@ let drivers = [
     Driver(id: 5, name: "Pierre Gasly", imageName: "gasly",
            team: redbull, age: 23, number: 10 , birthPlace: "Francia"),
 
-//    Driver(id: 6, name: "Nico Hulkenberg", imageName: "hulkenberg",
-//           team: renault, age: 31, number: 27 , birthPlace: "Alemania"),
+    Driver(id: 6, name: "Nico Hulkenberg", imageName: "hulkenberg",
+           team: renault, age: 31, number: 27 , birthPlace: "Alemania"),
     Driver(id: 7, name: "Daniel Ricciardo", imageName: "ricciardo",
            team: renault, age: 29, number: 3 , birthPlace: "Australia"),
 
