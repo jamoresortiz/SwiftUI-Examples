@@ -12,9 +12,12 @@ struct ContentView: View {
                 .background(Circle().foregroundColor(.white))
                 .overlay(Circle().stroke(Color.white, lineWidth: 3))
                 .shadow(radius: 18)
-                .offset(x: 0, y: -55)
+                .offset(x: 0, y: -65)
+                .padding(.bottom, -55)
             
             Text("Lewis Hamilton")
+                .font(.system(size: 35))
+                .fontWeight(.thin)
             
             Spacer()
         }.edgesIgnoringSafeArea(.top)
