@@ -4,7 +4,7 @@ import SwiftUI
 struct FormulaOne_PilotsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PilotsList()
         }
     }
 }
