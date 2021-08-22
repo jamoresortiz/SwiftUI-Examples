@@ -4,7 +4,7 @@ struct PilotsList: View {
     var body: some View {
         NavigationView {
             List(pilots) { pilot in
-                NavigationLink(destination: PilotDetail(pilot: pilot)) {
+                NavigationLink(destination: PilotDetail(pilot: pilot )) {
                     PilotRow(pilot: pilot)
                 }
             }

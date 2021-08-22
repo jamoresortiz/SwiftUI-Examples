@@ -7,21 +7,26 @@ struct PilotDetail: View {
     var body: some View {
         VStack {
             Image(pilot.team.imageName)
-                .scaledToFill()
+                .resizable()
                 .frame(height: 220)
             
             Image(pilot.imageName)
+                .resizable()
+                .scaledToFit()
                 .clipShape(Circle())
                 .background(Circle().foregroundColor(pilot.team.color))
                 .overlay(Circle().stroke(Color.white, lineWidth: 3))
                 .shadow(radius: 18)
-                .offset(x: 0, y: -70)
-                .padding(.bottom, -60)
+                .offset(x: 0, y: -60)
+                .padding(.bottom, -55)
+                .frame(height: 150)
+            
             
             Text(pilot.name)
                 .font(.system(size: 39))
                 .fontWeight(.light)
-                .padding(.bottom, 24)
+                .padding([.leading, .bottom, .trailing], 24.0)
+                .minimumScaleFactor(0.5)
 
             StatsRow(statKey: "Age", statValue: String(pilot.age))
 
@@ -36,6 +41,16 @@ struct PilotDetail: View {
 
 struct PilotDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PilotDetail(pilot: pilots.shuffled()[0])
+        PilotDetail(pilot: pilots[0])
+            .previewDevice("iPhone 8")
+            .previewDisplayName("iPhone 8")
+        
+        PilotDetail(pilot: pilots[0])
+            .previewDevice("iPhone 12")
+            .previewDisplayName("iPhone 12")
+        
+        PilotDetail(pilot: pilots[0])
+            .previewDevice("iPhone 12 Pro Max")
+            .previewDisplayName("iPhone 12 Pro Max")
     }
 }

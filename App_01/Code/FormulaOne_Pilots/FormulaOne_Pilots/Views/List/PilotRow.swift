@@ -20,19 +20,14 @@ struct PilotRow: View {
 
             Spacer()
         })
-        .padding(.top, 8)
-        .padding(.bottom, 8)
-        .padding(.trailing, 8)
-        .frame(height: 78)
+        .padding([.top, .leading, .trailing], 8)
+        .frame(height: 80)
     }
 }
 
 struct PilotRow_Previews: PreviewProvider {
     static var previews: some View {
-        
-        let shuffledPilots = pilots.shuffled()
-        
-        PilotRow(pilot: shuffledPilots[0])
+        PilotRow(pilot: pilots.shuffled()[0])
             .previewLayout(.fixed(width: 450, height: 100))
     }
 }
